@@ -23,9 +23,9 @@ gulp.task('jshint', function() {
 
 gulp.task('uglify', function() {
 	return es.merge([
-		gulp.src(['components/angular/angular.min.js',
-				  'components/angular/angular-route.min.js',
-				  'components/angular/angular-messages.min.js']),
+		gulp.src(['bower_components/angular/angular.min.js',
+				  'bower_components/angular-route/angular-route.min.js',
+				  'bower_components/angular-messages/angular-messages.min.js']),
 		gulp.src(['lib/**/*.js', 'js/**/*.js'])
 			.pipe(concat('scripts.js'))
 			.pipe(ngAnnotate())
@@ -42,7 +42,7 @@ gulp.task('htmlmin', function() {
 });
 
 gulp.task('cssmin', function() {
-	return gulp.src(['components/bootstrap/bootstrap.css', 'css/**/*.css'])
+	return gulp.src(['bower_components/bootstrap/dist/css/bootstrap.css', 'css/**/*.css'])
 		.pipe(cleanCSS())
 		.pipe(concat('styles.min.css'))
 		.pipe(gulp.dest('dist/css'));

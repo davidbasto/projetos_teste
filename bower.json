@@ -1,0 +1,17 @@
+{
+  "name": "listatelefonicaangular",
+  "description": "Aplicativo Teste do Angular JS",
+  "main": "js/app.js",
+  "authors": [
+    "davidbasto"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

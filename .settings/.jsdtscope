@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="directives/|controllers/|services/|**/bower_components/*|**/node_modules/*|config/|value/|filters/|**/*.min.js|interceptors/" kind="src" path="js"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/config"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/controllers"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/directives"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/filters"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/interceptors"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/services"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="js/value"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="lib/angular"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="lib/bootstrap"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="lib/serialGenerator"/>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="lib/ui"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
